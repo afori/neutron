@@ -23,7 +23,7 @@ from neutron.openstack.common import log as logging
 from neutron.plugins.ml2 import driver_api as api
 from pprint import pprint
 from pynetworking import Device
-from neutron.plugins.ml2.drivers.pynetworking import db
+from neutron.plugins.ml2.drivers.ati import db
 import sys
 
 LOG = logging.getLogger(__name__)
